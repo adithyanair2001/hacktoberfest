@@ -1,12 +1,7 @@
 def findthereverseword(a):
     ans = a.split()
     print(ans)
-    #for i in range(0,len(ans)):
-        # t=ans[i]
-        # ans[i]=t[::-1]
-    re=[]
-    for i in ans:
-        re.append(i[::-1])
+    re = [i[::-1] for i in ans]
     p=' '.join(ans)
     print(p)
 
